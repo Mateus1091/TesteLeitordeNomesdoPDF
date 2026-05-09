@@ -1,0 +1,97 @@
+========================
+PRIMEIRA VEZ NO GITHUB
+========================
+
+# 1. Entrar na pasta do projeto
+(cd já deve estar certo no VS Code)
+
+# 2. Inicializar git
+git init
+
+# 3. Adicionar arquivos
+git add .
+
+# 4. Criar primeiro commit
+git commit -m "Primeira versão"
+
+# 5. Criar repositório no GitHub
+# Site:
+https://github.com
+
+# Clique:
+# +  -> New repository
+
+# Nome do projeto:
+LeitorPDF
+
+# NÃO marcar:
+# README
+# .gitignore
+# license
+
+# 6. Conectar projeto ao GitHub
+# TROCAR SEUUSUARIO
+
+git remote add origin https://github.com/SEUUSUARIO/LeitorPDF.git
+
+# 7. Definir branch principal
+git branch -M main
+
+# 8. Enviar projeto
+git push -u origin main
+
+
+
+========================
+ATUALIZAR O PROJETO
+========================
+
+# SEMPRE QUE ALTERAR ALGUMA COISA:
+
+# 1. Salvar arquivos
+Ctrl + S
+
+# 2. Adicionar mudanças
+git add .
+
+# 3. Criar commit
+git commit -m "descreva o que mudou"
+
+# EXEMPLOS:
+git commit -m "corrige bug"
+git commit -m "melhora leitura pdf"
+git commit -m "nova interface"
+
+# 4. Enviar para GitHub
+git push
+
+
+
+========================
+COMANDOS ÚTEIS
+========================
+
+# Ver status do projeto
+git status
+
+# Ver histórico
+git log
+
+# Baixar atualizações do GitHub
+git pull
+
+# Ver repositório conectado
+git remote -v
+
+
+
+========================
+SE DER ERRO DE LOGIN
+========================
+
+# Faça login no VS Code:
+# canto inferior esquerdo -> Accounts -> Sign in with GitHub
+
+# OU:
+git config --global user.name "SEU NOME"
+git config --global user.email "SEUEMAIL@gmail.com"
